@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dgorold-/Desktop/RTv1/includes/rt.h
+../libft/includes/libft.h
+/Users/dgorold-/Desktop/RTv1/libft/includes/libft.h
+../libgm/include/libgm.h
+/Users/dgorold-/Desktop/RTv1/libgm/include/libgm.h
+mlx.h
+-
+math.h
+-
+fcntl.h
+-
+stdio.h
+-
+pthread.h
+-
+
+/Users/dgorold-/Desktop/RTv1/libft/includes/libft.h
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/Users/dgorold-/Desktop/RTv1/libgm/include/libgm.h
+../../libft/includes/libft.h
+/Users/dgorold-/Desktop/RTv1/libft/includes/libft.h
+math.h
+-
+
+/Users/dgorold-/Desktop/RTv1/src/cone.c
+../includes/rt.h
+/Users/dgorold-/Desktop/RTv1/includes/rt.h
+
